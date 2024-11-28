@@ -1,4 +1,3 @@
-
 :root{
   --text-primary:#000;
   --bgPrimary:#fff;
@@ -31,11 +30,12 @@ a:hover{
 .main{
   flex: 0.8;
   width: 100%;
-  
 }
+
 .routes{
   padding: 20px;
 }
+
 .nav-container{
   position: fixed;
   left: 0;
