@@ -17,9 +17,13 @@ export const cryptoApi = createApi({
       query: (count) => `/coins?limit=${count}`,
     }),
   }),
-});
+})
+  
 
-export const { useGetCryptosQuery } = cryptoApi;
+export const {
+useGetCryptosQuery,
+} = cryptoApi;
+
 
 // const options = {
 //     method: 'GET',
